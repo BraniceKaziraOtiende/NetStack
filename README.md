@@ -78,12 +78,6 @@ Assets/Scripts/
 
 ---
 
-## Video walkthrough
-
-[Add your video link here]
-
----
-
 ## Module context
 
 Built for **Introduction to Software Engineering — Web Infrastructure module**.  
