@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b878afba9cf1b184a8a085800e78c3b6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - nodeRenderer: {instanceID: 0}
+  - healthyMaterial: {fileID: 2100000, guid: 879fae17bbc63f0438dfe5d8b8b264b0, type: 2}
+  - warningMaterial: {fileID: 2100000, guid: 03c644cd83ee53a4586131338c1f2f6b, type: 2}
+  - overloadMaterial: {fileID: 2100000, guid: 72813793a26c23241bb8500397a5fb0c, type: 2}
+  - labelText: {instanceID: 0}
+  - selectionRing: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
