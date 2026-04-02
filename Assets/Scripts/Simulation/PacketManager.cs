@@ -5,16 +5,14 @@ using ArchitectureBlueprint.Infrastructure;
 
 namespace ArchitectureBlueprint.Simulation
 {
-    /// <summary>
-    /// Spawns glowing orb packets that travel ALONG the connection lines
-    /// between nodes — not through the air.
-    ///
+   
+    /// Spawns glowing orb packets that travel ALONG the connection line
     /// Flow:
     ///   Client → Load Balancer  (blue HTTP packet)
     ///   LB     → Server         (blue, routed)
     ///   Server → Database       (amber DB query)
     ///   Cache  → Server         (green cache hit, linear — no arc)
-    /// </summary>
+   
     public class PacketManager : MonoBehaviour
     {
         [Header("Packet Prefab")]
@@ -85,7 +83,7 @@ namespace ArchitectureBlueprint.Simulation
         public void SetSpawnRate(float rate) =>
             CurrentSpawnRate = Mathf.Clamp01(rate);
 
-        // ── Main traffic spawning ─────────────────────────────────────────────
+        // ── Main traffic spawning 
 
         private void SpawnTrafficCycle(LoadBalancerNode lb,
             Dictionary<NodeType, List<InfrastructureNode>> nodes)
